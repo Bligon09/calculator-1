@@ -2,34 +2,38 @@
 
 
 def add(num1, num2):
-    """Return the sum of num1 and num2."""
-
-    return 10
+    total_add= num1+num2
+    return total_add
 
 
 def subtract(num1, num2):
-    """Return the value of num1 minus num2."""
-
+    minus_total= num1-num2
+    return minus_total
 
 def multiply(num1, num2):
-    """Multiply the num1 by num2 and return the result."""
+    multi_total= num1*num2
+    return multi_total
 
 
 def divide(num1, num2):
-    """Divide the num1 by num2, returning a floating point."""
-
+    divide_total=num1/num2
+    return divide_total
 
 def square(num1):
-    """Return the square of num1."""
+    square_total=num1*num1
+    return square_total
 
 
 def cube(num1):
-    """Return the cube of num1."""
+    cube_total= num1**3
+    return cube_total
 
 
 def power(num1, num2):
-    """Raise num1 to the power of num2 and return the value."""
+    pow_total=num1**num2
+    return pow_total
 
 
 def mod(num1, num2):
-    """Return the remainder of num1 / num2."""
+    mod_total=num1%num2
+    return mod_total
